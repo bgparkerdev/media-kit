@@ -1,4 +1,5 @@
 name: media_kit
+publish_to: "none"
 description: A cross-platform video player & audio player for Flutter & Dart. Performant, stable, feature-proof & modular.
 homepage: https://github.com/media-kit/media-kit
 repository: https://github.com/media-kit/media-kit

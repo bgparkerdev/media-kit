@@ -1,4 +1,5 @@
 name: media_kit_video
+publish_to: "none"
 description: Native implementation for video playback in package:media_kit.
 homepage: https://github.com/media-kit/media-kit
 repository: https://github.com/media-kit/media-kit
@@ -18,7 +19,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  media_kit: ^1.1.10
+  media_kit:
+    git:
+      url: https://github.com/bgparkerdev/media-kit.git
+      path: media_kit
+      ref: eefabe8
 
   synchronized: ^3.1.0
   wakelock_plus: ^1.1.1
